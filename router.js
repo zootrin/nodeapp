@@ -4,8 +4,8 @@ var User = require('./models/user');
 
 
 // GET route for reading data
-router.get('/profile', function(req, res, next) {
-    return res.send("GET profile");
+router.get('/', function(req, res, next) {
+    return res.sendFile(__dirname + '/templateLogReg/index.html');
 });
 
 
