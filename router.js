@@ -1,10 +1,11 @@
 var express = require('express');
 var router = express.Router();
+var User = require('./models/user');
 
 
-// GET /
-router.get('/', function(req, res, next) {
-    return res.send("working");
+// GET route for reading data
+router.get('/profile', function(req, res, next) {
+    return res.send("GET profile");
 });
 
 
