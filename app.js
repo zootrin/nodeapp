@@ -1,4 +1,4 @@
-console.log("Our ACIT2520 Project");
+console.log("ACIT2520 Project - Student Registration Webapp");
 
 console.log("Three Features to include --");
 console.log("1 -Authentication/Login");
