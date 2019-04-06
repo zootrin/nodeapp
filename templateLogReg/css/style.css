@@ -1,3 +1,10 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+/*--reset--*/
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
 article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
 ol,ul{list-style:none;margin:0px;padding:0px;}
@@ -21,8 +28,8 @@ nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
 /*--end reset--*/
 body {
-    font-family: 'Jura', sans-serif;
-    background:#0a4981;
+    font-family: 'Jura',"Arial Black";
+    background:black;
 }
 h1 {
     color: #fff;
@@ -37,7 +44,7 @@ h1 {
     width: 50%;
 }
 .banner {
-    background: url("/pictures/image1.jfif")no-repeat 0px 0px;
+    background: url(../images/banner3.jpg)no-repeat 0px 0px;
     background-size: cover;
 }
 
@@ -52,19 +59,19 @@ h1 {
     width: 48%;
 }
 .signin-form {
-    background: url("/pictures/image2.jpg")no-repeat 0px 0px;
+    background: url(../images/banner3.jpg)no-repeat 0px 0px;
     background-size: cover;
     padding: 2em 2em;
     text-align: center;
 }
 .signin-form h3 {
     font-size: 2em;
-    color: #fff;
+    color: white;
     font-weight: 700;
     margin-bottom: 1.5em;
 }
 .signin-form h3 span {
-    color: #67e1ff;
+    color: black;
 }
 .signin-form img {
     border-radius: 50%;
@@ -78,7 +85,7 @@ h1 {
     font-size: 0.8em;
     margin: 1em 0;
     outline: none;
-    color: #FFF;
+    color: black;
     border: none;
     border-bottom: 2px solid #fff;
     letter-spacing: 1px;
@@ -105,7 +112,7 @@ h1 {
     border: none;
     color: #fff;
     cursor: pointer;
-    background: #0b4379;
+    background: dimgrey;
     box-shadow: 0px 2px 1px rgba(28, 28, 29, 0.42);
     border-radius: 22px;
 
@@ -137,7 +144,7 @@ h5 {
     padding: 0.5em;
 }
 .header-social a.face{
-    background:url("/pictures/image3.jpg")no-repeat 12px 9px #3B62A3;
+    background:url(../images/fac.png)no-repeat 12px 9px #3B62A3;
     color: #FFF;
     font-size: 16px;
     font-weight: 400;
@@ -154,7 +161,7 @@ h5 {
     border-radius: 14px 0px 0px 14px;
 }
 .header-social a.face:hover{
-    background:url("/pictures/image4.jpg")no-repeat 12px 9px #0E387C;
+    background:url(../images/fac.png)no-repeat 12px 9px #0E387C;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -162,7 +169,7 @@ h5 {
 }
 /*-- w3layouts --*/
 .header-social a.goog {
-    background:url("/pictures/image5.jpg")no-repeat 12px 9px #D64639;
+    background:url(../images/google.png)no-repeat 12px 9px #D64639;
     color: #FFF;
     font-size: 16px;
     font-weight: 400;
@@ -180,7 +187,7 @@ h5 {
     border-radius: 0px 14px 14px 0px;
 }
 .header-social a.goog:hover {
-    background: url("/pictures/image6.jpg")no-repeat 12px 9px #ff4b3b;
+    background: url(../images/google.png)no-repeat 12px 9px #ff4b3b;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -412,7 +419,7 @@ h5 {
         font-size: 0.9em;
     }
     .header-social a.face {
-        background: url("/pictures/image7.jpg")no-repeat 12px 6px #3B62A3;
+        background: url(../images/fac.png)no-repeat 12px 6px #3B62A3;
         font-size: 14px;
         width: 24%;
     }
@@ -423,16 +430,16 @@ h5 {
         margin: 1em;
     }
     .header-social a.face:hover {
-        background: url("/pictures/image8.jpg")no-repeat 12px 6px #0E387C;
+        background: url(../images/fac.png)no-repeat 12px 6px #0E387C;
     }
     .header-social a.goog {
-        background: url("/pictures/image9.jpg")no-repeat 12px 6px #D64639;
+        background: url(../images/google.png)no-repeat 12px 6px #D64639;
         font-size: 14px;
         padding: 0 2.5em;
         width: 19%;
     }
     .header-social a.goog:hover {
-        background: url("/pictures/image10.jpg")no-repeat 12px 6px #ff4b3b;
+        background: url(../images/google.png)no-repeat 12px 6px #ff4b3b;
     }
 }
 /*--//responsive-design---*/
