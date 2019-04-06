@@ -44,7 +44,7 @@ router.post('/', function (req, res, next) {
 
             password: req.body.password,
 
-        }
+        };
 
         User.create(userData, function (error, user) {
 
@@ -94,7 +94,7 @@ router.post('/', function (req, res, next) {
 
     }
 
-})
+});
 
 // GET route after registering
 
