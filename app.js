@@ -9,7 +9,7 @@ app.use(express.static(__dirname + '/template'));
 
 // include routes
 
-var routes = require('./routes/router');
+var routes = require('./router.js');
 
 app.use('/', routes);
 
