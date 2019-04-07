@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var User = require('../models/user');
+var User = require('./models/user');
 
 // GET route for reading data
 
@@ -22,7 +22,7 @@ router.post('/', function (req, res, next) {
 
         err.status = 400;
 
-        res.send("passwords dont match");
+        res.send("passwords don't match");
 
         return next(err);
 
