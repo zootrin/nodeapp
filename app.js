@@ -8,7 +8,7 @@ var MongoStore= require('connect-mongo')(session);
 const port = process.env.PORT || 8080;
 
 // connect to MongoDb
-mongoose.connect('mongodb://localhost:27017/testForAuth');
+mongoose.connect('mongodb://localhost/testForAuth');
 var db = mongoose.connection;
 
 // handle MongoDB errors
@@ -29,7 +29,7 @@ app.use(session({
 
 //parsing incoming requests
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false}));
+app.use(bodyParser.urlencoded({ extended: false }));
 
 // serve static files from /public
 app.use(express.static(__dirname + '/templateLogReg'));
