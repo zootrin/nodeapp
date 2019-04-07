@@ -26,7 +26,7 @@
             <h3>Login</h3>
 
             <div class="login-form">
-                <form action="/" method="post">
+                <form action="extrapage.html" method="post">
                     <input type="text" name="logemail" placeholder="E-mail" required="">
                     <input type="password" name="logpassword" placeholder="Password" required="">
                     <div class="tp">
@@ -60,9 +60,9 @@
 </div>
 
 <script type="text/javascript">
-    var passWordField = document.getElementById('password')
-    var passWordConfirmField = document.getElementById('password_conf')
-    var form = document.getElementById('login')
+    var passWordField = document.getElementById('password');
+    var passWordConfirmField = document.getElementById('password_conf');
+    var form = document.getElementById('login');
     function validateMyForm(){
         if(passWordField.value != passWordConfirmField.value){
             alert("Passwords do not match. Please try again.");
